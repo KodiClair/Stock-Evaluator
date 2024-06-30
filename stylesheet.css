@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(117, 23, 23);
+    display: flex;
+    align-items: center;
+}
+
+.front {
+    background-color: aliceblue;
+}
