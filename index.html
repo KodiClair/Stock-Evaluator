@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./stylesheet.css">
     <title>Stock Evaluator</title>
 </head>
 <body>
     <div class="front">
         <div class="search">
             <input type="search" placeholder="Search...">
+            <button type="submit"><i class="fa fa-search"></i></button>
         </div>
     
         <div class="eval"> 
-        
+            <div id="evaluation">
+
+            </div>
         </div>
     
         <div class="chart"> 
@@ -20,10 +25,13 @@
         </div>
     
         <div class="ratios"> 
+            <div class="box" id="EPS"></div>
+            <div class="box" id="PPE"></div>
+            <div class="box" id="PPS"></div>
+            <div class="box" id="DPE"></div>
+        </div>
     </div>
     
-
-    </div>
     
 </body>
 </html>
